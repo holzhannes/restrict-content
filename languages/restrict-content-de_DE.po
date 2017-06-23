@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-23 22:01+0200\n"
+"PO-Revision-Date: 2017-06-23 22:05+0200\n"
+"Last-Translator: holzhannes <holzhannes@posteo.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.2\n"
+
+#: includes/feed-functions.php:18
+#, php-format
+msgid "This content is restricted to %ss"
+msgstr "Dieser Inhalt ist auf die Benutzerrolle %s beschränkt"
+
+#: includes/metabox.php:10
+msgid "Restrict this content"
+msgstr "Inhaltsschutz"
+
+#: includes/metabox.php:15
+msgid "User Level"
+msgstr "Beschränkungsstufe"
+
+#: includes/metabox.php:18
+msgid "Choose the user level that can see this page / post"
+msgstr ""
+"Wählen Sie die Benutzerrolle dessen Benutzer_in den Beitrag/Seite sehen "
+"kann. Bei Auswahl von „Keine“ ist der Inhalt nicht geschützt und somit "
+"öffentlich zugänglich, außer Bereiche welche per Short Code geschützt sind"
+
+#: includes/metabox.php:20
+msgid "None"
+msgstr "Keine"
+
+#: includes/metabox.php:21
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/metabox.php:22
+msgid "Editor"
+msgstr "Redakteur"
+
+#: includes/metabox.php:23
+msgid "Author"
+msgstr "Autor"
+
+#: includes/metabox.php:24
+msgid "Contributor"
+msgstr "Mitarbeiter"
+
+#: includes/metabox.php:25
+msgid "Subscriber"
+msgstr "Abonnent"
+
+#: includes/metabox.php:30
+msgid "Hide from Feed?"
+msgstr "Inhalt im RSS-Feed der Seite verbergen?"
+
+#: includes/metabox.php:33
+msgid "Hide the excerpt of this post / page from the Feed?"
+msgstr "Inhalt bzw. Auszug dieses Beitrages/Seite im RSS-Feed verbergen?"
+
+#: includes/metabox.php:73
+msgid ""
+"Use these options to restrict this entire entry, or the [restrict ...] ... [/"
+"restrict] short code to restrict partial content."
+msgstr ""
+"Verwenden Sie die <strong>Beschränkungsstufe</strong>, um den gesamten "
+"Beitrag/Seite zu beschränken, oder einen Short Code, um nur einen Teil des "
+"Beitrags/Seite zu beschränken. Der Short Code <code>[restrict] … [/ "
+"restrict]</code> entspricht <code>[restrict userlevel=subscriber] … [/ "
+"restrict]</code> und bedeutet, dass der Inhalt zwischen dem Short Code nur "
+"für angemeldete Benutzer_innen (Abonnenten) zugänglich ist."
+
+#: includes/settings.php:14 includes/settings.php:104
+msgid "Restrict Content Settings"
+msgstr "Inhaltsschutz Einstellungen"
+
+#: includes/settings.php:20
+msgid "Options saved"
+msgstr "Einstellungen gesichert"
+
+#: includes/settings.php:28
+msgid "Short Code Messages"
+msgstr "Short Code Nachricht"
+
+#: includes/settings.php:31
+msgid "Restricted Message"
+msgstr "Nachricht bei Inhaltsschutz"
+
+#: includes/settings.php:34
+msgid ""
+"When using the [restrict ... ] .... [/restrict] Short Code, this is the "
+"message displayed when a user does not have the appropriate permissions."
+msgstr ""
+"Bei der Verwendung des Short Codes z.B.: <code>[restrict "
+"userlevel=contributor] ... [/ restrict]</code> , wird diese Meldung "
+"angezeigt, wenn ein Benutzer nicht über die entsprechenden Berechtigungen "
+"verfügt."
+
+#: includes/settings.php:35
+msgid ""
+"The <strong>{userlevel}</strong> tag will be automatically replaced with the "
+"permission level needed."
+msgstr ""
+"Die <strong>{userlevel}</strong> Variable wird automatisch durch die "
+"benötigte Berechtigungsstufe ersetzt."
+
+#: includes/settings.php:39
+msgid "User Level Restriction Messages"
+msgstr "Nachricht je Benutzerrolle bei Inhaltsschutz"
+
+#: includes/settings.php:42
+msgid "Adminstrators"
+msgstr "Adminstratoren"
+
+#: includes/settings.php:45
+msgid ""
+"Message displayed when a user does not have permission to view Adminstrator "
+"restricted content"
+msgstr ""
+"Meldung die angezeigt wird, wenn ein Benutzer keine Berechtigung für Inhalte "
+"hat welche nur für Administratoren geschützt sind"
+
+#: includes/settings.php:49
+msgid "Editors"
+msgstr "Editoren"
+
+#: includes/settings.php:52
+msgid ""
+"Message displayed when a user does not have permission to view Editor "
+"restricted content"
+msgstr ""
+"Meldung die angezeigt wird, wenn ein Benutzer keine Berechtigung für Inhalte "
+"hat welche nur für Redakteur (und höher) geschützt sind"
+
+#: includes/settings.php:56
+msgid "Authors"
+msgstr "Autoren"
+
+#: includes/settings.php:59
+msgid ""
+"Message displayed when a user does not have permission to view Author "
+"restricted content"
+msgstr ""
+"Meldung die angezeigt wird, wenn ein Benutzer keine Berechtigung für Inhalte "
+"hat welche nur für Autor (und höher) geschützt sind"
+
+#: includes/settings.php:63
+msgid "Contributors"
+msgstr "Mitarbeiter"
+
+#: includes/settings.php:66
+msgid ""
+"Message displayed when a user does not have permission to view Contributor "
+"restricted content"
+msgstr ""
+"Meldung die angezeigt wird, wenn ein Benutzer keine Berechtigung für Inhalte "
+"hat welche nur für Mitarbeiter (und höher) geschützt sind"
+
+#: includes/settings.php:70
+msgid "Subscribers"
+msgstr "Abonnenten"
+
+#: includes/settings.php:73
+msgid ""
+"Message displayed when a user does not have permission to view Subscriber "
+"restricted content"
+msgstr ""
+"Meldung die angezeigt wird, wenn ein Benutzer keine Berechtigung für Inhalte "
+"hat welche nur für Abonnenten (und höher) geschützt sind"
+
+#: includes/settings.php:80
+msgid "Save Options"
+msgstr "Speichere Optionen"
+
+#. Plugin Name of the plugin/theme
+#: includes/settings.php:104
+msgid "Restrict Content"
+msgstr "Inhaltsschutz"
+
+#. Description of the plugin/theme
+msgid ""
+"Restrict Content to registered users only. This is a simple plugin that will "
+"allow you to easily restrict complete posts / pages to logged in users only."
+msgstr ""
+"Beschränken Sie den Inhalt nur auf registrierte Benutzer. Dies ist ein "
+"einfaches Plugin, mit dem Sie ganz einfach komplette Beiträge und Seiten nur "
+"für angemeldete Benutzern beschränken können."
+
+#. Author of the plugin/theme
+msgid "Pippin Williamson"
+msgstr "Pippin Williamson"
+
+#. Author URI of the plugin/theme
+msgid "http://pippinsplugins.com"
+msgstr "http://pippinsplugins.com"
+
+#~ msgid "login"
+#~ msgstr "anmelden"
