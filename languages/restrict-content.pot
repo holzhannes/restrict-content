@@ -1,0 +1,182 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Restrict Content\n"
+"POT-Creation-Date: 2017-06-23 22:04+0200\n"
+"PO-Revision-Date: 2017-06-23 22:04+0200\n"
+"Last-Translator: holzhannes <holzhannes@posteo.de>\n"
+"Language-Team: holzhannes <holzhannes@posteo.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: restrictcontent.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/feed-functions.php:18
+#, php-format
+msgid "This content is restricted to %ss"
+msgstr ""
+
+#: includes/metabox.php:10
+msgid "Restrict this content"
+msgstr ""
+
+#: includes/metabox.php:15
+msgid "User Level"
+msgstr ""
+
+#: includes/metabox.php:18
+msgid "Choose the user level that can see this page / post"
+msgstr ""
+
+#: includes/metabox.php:20
+msgid "None"
+msgstr ""
+
+#: includes/metabox.php:21
+msgid "Administrator"
+msgstr ""
+
+#: includes/metabox.php:22
+msgid "Editor"
+msgstr ""
+
+#: includes/metabox.php:23
+msgid "Author"
+msgstr ""
+
+#: includes/metabox.php:24
+msgid "Contributor"
+msgstr ""
+
+#: includes/metabox.php:25
+msgid "Subscriber"
+msgstr ""
+
+#: includes/metabox.php:30
+msgid "Hide from Feed?"
+msgstr ""
+
+#: includes/metabox.php:33
+msgid "Hide the excerpt of this post / page from the Feed?"
+msgstr ""
+
+#: includes/metabox.php:73
+msgid ""
+"Use these options to restrict this entire entry, or the [restrict ...] ... [/"
+"restrict] short code to restrict partial content."
+msgstr ""
+
+#: includes/settings.php:14 includes/settings.php:104
+msgid "Restrict Content Settings"
+msgstr ""
+
+#: includes/settings.php:20
+msgid "Options saved"
+msgstr ""
+
+#: includes/settings.php:28
+msgid "Short Code Messages"
+msgstr ""
+
+#: includes/settings.php:31
+msgid "Restricted Message"
+msgstr ""
+
+#: includes/settings.php:34
+msgid ""
+"When using the [restrict ... ] .... [/restrict] Short Code, this is the "
+"message displayed when a user does not have the appropriate permissions."
+msgstr ""
+
+#: includes/settings.php:35
+msgid ""
+"The <strong>{userlevel}</strong> tag will be automatically replaced with the "
+"permission level needed."
+msgstr ""
+
+#: includes/settings.php:39
+msgid "User Level Restriction Messages"
+msgstr ""
+
+#: includes/settings.php:42
+msgid "Adminstrators"
+msgstr ""
+
+#: includes/settings.php:45
+msgid ""
+"Message displayed when a user does not have permission to view Adminstrator "
+"restricted content"
+msgstr ""
+
+#: includes/settings.php:49
+msgid "Editors"
+msgstr ""
+
+#: includes/settings.php:52
+msgid ""
+"Message displayed when a user does not have permission to view Editor "
+"restricted content"
+msgstr ""
+
+#: includes/settings.php:56
+msgid "Authors"
+msgstr ""
+
+#: includes/settings.php:59
+msgid ""
+"Message displayed when a user does not have permission to view Author "
+"restricted content"
+msgstr ""
+
+#: includes/settings.php:63
+msgid "Contributors"
+msgstr ""
+
+#: includes/settings.php:66
+msgid ""
+"Message displayed when a user does not have permission to view Contributor "
+"restricted content"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Subscribers"
+msgstr ""
+
+#: includes/settings.php:73
+msgid ""
+"Message displayed when a user does not have permission to view Subscriber "
+"restricted content"
+msgstr ""
+
+#: includes/settings.php:80
+msgid "Save Options"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/settings.php:104
+msgid "Restrict Content"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Restrict Content to registered users only. This is a simple plugin that will "
+"allow you to easily restrict complete posts / pages to logged in users only."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pippin Williamson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://pippinsplugins.com"
+msgstr ""
