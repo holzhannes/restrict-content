@@ -73,6 +73,11 @@ http://pippinsplugins.com/restricted-content-plugin-free/
 
 == Changelog ==
 
+= 2.1.4 =
+
+* Added new {loginurl} variable
+* Added German translation
+
 = 2.1.3 =
 
 * Fix: Undefined nonce index when saving some post types
