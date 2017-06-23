@@ -45,7 +45,7 @@ function rcMetaDisplayContributor( $content ) {
 function rcMetaDisplaySubscriber( $content ) {
 	global $rc_options;
 	global $post;
-	
+
 	$rcUserLevel = get_post_meta($post->ID, 'rcUserLevel', true);
 
 	if ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author' || $rcUserLevel == 'Contributor') {
@@ -65,7 +65,8 @@ function rcMetaDisplayNone( $content ) {
 
 	if (!current_user_can('read') && ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author' || $rcUserLevel == 'Contributor' || $rcUserLevel == 'Subscriber')) {
 		$userLevelMessage = strtolower($rcUserLevel);
-		return do_shortcode( $rc_options[$userLevelMessage . '_message'] );
+		$loginurl = wp_login_url( get_permalink() ) ;
+		return do_shortcode( str_replace('{loginurl}', $loginurl, $rc_options[$userLevelMessage . '_message']) );
 	} else {
 		// return the content unfilitered
 		return $content;
