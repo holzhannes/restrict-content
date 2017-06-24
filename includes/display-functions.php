@@ -25,7 +25,7 @@ function rcMetaDisplayAuthor( $content ) {
 	if ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor') {
 		return do_shortcode( $rc_options['author_message'] );
 	} else {
-		// return the content unfilitered
+		// return the content unfiltered
 		return $content;
 	}
 }
@@ -38,7 +38,7 @@ function rcMetaDisplayContributor( $content ) {
 	if ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author') {
 		return do_shortcode( $rc_options['contributor_message'] );
 	} else {
-		// return the content unfilitered
+		// return the content unfiltered
 		return $content;
 	}
 }
@@ -51,7 +51,7 @@ function rcMetaDisplaySubscriber( $content ) {
 	if ($rcUserLevel == 'Administrator' || $rcUserLevel == 'Editor' || $rcUserLevel == 'Author' || $rcUserLevel == 'Contributor') {
 		return do_shortcode( $rc_options['subscriber_message'] );
 	} else {
-		// return the content unfilitered
+		// return the content unfiltered
 		return $content;
 	}
 }
@@ -68,7 +68,7 @@ function rcMetaDisplayNone( $content ) {
 		$loginurl = wp_login_url( get_permalink() ) ;
 		return do_shortcode( str_replace('{loginurl}', $loginurl, $rc_options[$userLevelMessage . '_message']) );
 	} else {
-		// return the content unfilitered
+		// return the content unfiltered
 		return $content;
 	}
 }
