@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Restrict Content\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-23 22:01+0200\n"
-"PO-Revision-Date: 2017-06-23 22:05+0200\n"
+"POT-Creation-Date: 2017-06-24 17:11+0200\n"
+"PO-Revision-Date: 2017-06-24 17:12+0200\n"
 "Last-Translator: holzhannes <holzhannes@posteo.de>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -12,6 +12,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.2\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin-view.php:10 includes/settings.php:104
+msgid "Restrict Content"
+msgstr "Inhaltsschutz"
+
+#: includes/admin-view.php:37
+msgid "Parts restricted"
+msgstr "Teile geschützt"
+
+#: includes/admin-view.php:44
+msgid "Feed restricted"
+msgstr "RSS-Feed geschützt"
+
+#: includes/admin-view.php:54 includes/metabox.php:21
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/admin-view.php:57 includes/metabox.php:22
+msgid "Editor"
+msgstr "Redakteur"
+
+#: includes/admin-view.php:60 includes/metabox.php:23
+msgid "Author"
+msgstr "Autor"
+
+#: includes/admin-view.php:63 includes/metabox.php:24
+msgid "Contributor"
+msgstr "Mitarbeiter"
+
+#: includes/admin-view.php:66 includes/metabox.php:25
+msgid "Subscriber"
+msgstr "Abonnent"
 
 #: includes/feed-functions.php:18
 #, php-format
@@ -36,26 +69,6 @@ msgstr ""
 #: includes/metabox.php:20
 msgid "None"
 msgstr "Keine"
-
-#: includes/metabox.php:21
-msgid "Administrator"
-msgstr "Administrator"
-
-#: includes/metabox.php:22
-msgid "Editor"
-msgstr "Redakteur"
-
-#: includes/metabox.php:23
-msgid "Author"
-msgstr "Autor"
-
-#: includes/metabox.php:24
-msgid "Contributor"
-msgstr "Mitarbeiter"
-
-#: includes/metabox.php:25
-msgid "Subscriber"
-msgstr "Abonnent"
 
 #: includes/metabox.php:30
 msgid "Hide from Feed?"
@@ -178,11 +191,6 @@ msgstr ""
 #: includes/settings.php:80
 msgid "Save Options"
 msgstr "Speichere Optionen"
-
-#. Plugin Name of the plugin/theme
-#: includes/settings.php:104
-msgid "Restrict Content"
-msgstr "Inhaltsschutz"
 
 #. Description of the plugin/theme
 msgid ""

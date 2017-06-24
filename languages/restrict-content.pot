@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Restrict Content\n"
-"POT-Creation-Date: 2017-06-23 22:04+0200\n"
-"PO-Revision-Date: 2017-06-23 22:04+0200\n"
+"POT-Creation-Date: 2017-06-24 17:11+0200\n"
+"PO-Revision-Date: 2017-06-24 17:11+0200\n"
 "Last-Translator: holzhannes <holzhannes@posteo.de>\n"
 "Language-Team: holzhannes <holzhannes@posteo.de>\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,39 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin-view.php:10 includes/settings.php:104
+msgid "Restrict Content"
+msgstr ""
+
+#: includes/admin-view.php:37
+msgid "Parts restricted"
+msgstr ""
+
+#: includes/admin-view.php:44
+msgid "Feed restricted"
+msgstr ""
+
+#: includes/admin-view.php:54 includes/metabox.php:21
+msgid "Administrator"
+msgstr ""
+
+#: includes/admin-view.php:57 includes/metabox.php:22
+msgid "Editor"
+msgstr ""
+
+#: includes/admin-view.php:60 includes/metabox.php:23
+msgid "Author"
+msgstr ""
+
+#: includes/admin-view.php:63 includes/metabox.php:24
+msgid "Contributor"
+msgstr ""
+
+#: includes/admin-view.php:66 includes/metabox.php:25
+msgid "Subscriber"
+msgstr ""
 
 #: includes/feed-functions.php:18
 #, php-format
@@ -40,26 +73,6 @@ msgstr ""
 
 #: includes/metabox.php:20
 msgid "None"
-msgstr ""
-
-#: includes/metabox.php:21
-msgid "Administrator"
-msgstr ""
-
-#: includes/metabox.php:22
-msgid "Editor"
-msgstr ""
-
-#: includes/metabox.php:23
-msgid "Author"
-msgstr ""
-
-#: includes/metabox.php:24
-msgid "Contributor"
-msgstr ""
-
-#: includes/metabox.php:25
-msgid "Subscriber"
 msgstr ""
 
 #: includes/metabox.php:30
@@ -160,11 +173,6 @@ msgstr ""
 
 #: includes/settings.php:80
 msgid "Save Options"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-#: includes/settings.php:104
-msgid "Restrict Content"
 msgstr ""
 
 #. Description of the plugin/theme
