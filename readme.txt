@@ -73,6 +73,10 @@ http://pippinsplugins.com/restricted-content-plugin-free/
 
 == Changelog ==
 
+= 2.1.5 =
+
+* Added new column to pages/posts listings to view status
+
 = 2.1.4 =
 
 * Added new {loginurl} variable
